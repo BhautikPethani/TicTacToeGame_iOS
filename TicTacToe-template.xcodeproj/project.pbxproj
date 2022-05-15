@@ -16,6 +16,15 @@
 		1CC8BB05248E156500B0969E /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8BB02248E156500B0969E /* cross.png */; };
 		1CC8BB06248E156500B0969E /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8BB03248E156500B0969E /* board.png */; };
 		1CC8BB07248E156500B0969E /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8BB04248E156500B0969E /* nought.png */; };
+		ED4E31502830870600CD4F26 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E314F2830870600CD4F26 /* line.png */; };
+		ED4E31592830A5CA00CD4F26 /* board4.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E31512830A5CA00CD4F26 /* board4.png */; };
+		ED4E315A2830A5CA00CD4F26 /* board1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E31522830A5CA00CD4F26 /* board1.png */; };
+		ED4E315B2830A5CA00CD4F26 /* board2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E31532830A5CA00CD4F26 /* board2.png */; };
+		ED4E315C2830A5CA00CD4F26 /* board6.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E31542830A5CA00CD4F26 /* board6.png */; };
+		ED4E315D2830A5CA00CD4F26 /* board3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E31552830A5CA00CD4F26 /* board3.png */; };
+		ED4E315E2830A5CA00CD4F26 /* board5.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E31562830A5CA00CD4F26 /* board5.png */; };
+		ED4E315F2830A5CA00CD4F26 /* board7.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E31572830A5CA00CD4F26 /* board7.png */; };
+		ED4E31602830A5CA00CD4F26 /* board8.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4E31582830A5CA00CD4F26 /* board8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,15 @@
 		1CC8BB02248E156500B0969E /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		1CC8BB03248E156500B0969E /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 		1CC8BB04248E156500B0969E /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		ED4E314F2830870600CD4F26 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line.png; path = ../../../../../line.png; sourceTree = "<group>"; };
+		ED4E31512830A5CA00CD4F26 /* board4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board4.png; sourceTree = "<group>"; };
+		ED4E31522830A5CA00CD4F26 /* board1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board1.png; sourceTree = "<group>"; };
+		ED4E31532830A5CA00CD4F26 /* board2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board2.png; sourceTree = "<group>"; };
+		ED4E31542830A5CA00CD4F26 /* board6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board6.png; sourceTree = "<group>"; };
+		ED4E31552830A5CA00CD4F26 /* board3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board3.png; sourceTree = "<group>"; };
+		ED4E31562830A5CA00CD4F26 /* board5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board5.png; sourceTree = "<group>"; };
+		ED4E31572830A5CA00CD4F26 /* board7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board7.png; sourceTree = "<group>"; };
+		ED4E31582830A5CA00CD4F26 /* board8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board8.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +95,16 @@
 		1CC8BB01248E156500B0969E /* res */ = {
 			isa = PBXGroup;
 			children = (
+				ED4E314F2830870600CD4F26 /* line.png */,
 				1CC8BB02248E156500B0969E /* cross.png */,
+				ED4E31522830A5CA00CD4F26 /* board1.png */,
+				ED4E31532830A5CA00CD4F26 /* board2.png */,
+				ED4E31552830A5CA00CD4F26 /* board3.png */,
+				ED4E31512830A5CA00CD4F26 /* board4.png */,
+				ED4E31562830A5CA00CD4F26 /* board5.png */,
+				ED4E31542830A5CA00CD4F26 /* board6.png */,
+				ED4E31572830A5CA00CD4F26 /* board7.png */,
+				ED4E31582830A5CA00CD4F26 /* board8.png */,
 				1CC8BB03248E156500B0969E /* board.png */,
 				1CC8BB04248E156500B0969E /* nought.png */,
 			);
@@ -143,8 +170,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC8BAFA248E151500B0969E /* LaunchScreen.storyboard in Resources */,
+				ED4E315E2830A5CA00CD4F26 /* board5.png in Resources */,
+				ED4E31592830A5CA00CD4F26 /* board4.png in Resources */,
+				ED4E31502830870600CD4F26 /* line.png in Resources */,
+				ED4E315A2830A5CA00CD4F26 /* board1.png in Resources */,
+				ED4E31602830A5CA00CD4F26 /* board8.png in Resources */,
+				ED4E315D2830A5CA00CD4F26 /* board3.png in Resources */,
+				ED4E315F2830A5CA00CD4F26 /* board7.png in Resources */,
 				1CC8BAF7248E151500B0969E /* Assets.xcassets in Resources */,
+				ED4E315B2830A5CA00CD4F26 /* board2.png in Resources */,
 				1CC8BB07248E156500B0969E /* nought.png in Resources */,
+				ED4E315C2830A5CA00CD4F26 /* board6.png in Resources */,
 				1CC8BB05248E156500B0969E /* cross.png in Resources */,
 				1CC8BB06248E156500B0969E /* board.png in Resources */,
 				1CC8BAF5248E151200B0969E /* Main.storyboard in Resources */,
