@@ -28,15 +28,21 @@
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z80-Qx-Enp">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="161.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="boardSquares:" destination="q2o-te-CwK" eventType="touchUpInside" id="IKM-B6-sHX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25b-iv-cRG">
                                                 <rect key="frame" x="139.5" y="0.0" width="115" height="161.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="boardSquares:" destination="q2o-te-CwK" eventType="touchUpInside" id="jYL-2h-f1N"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQy-eF-Qif">
                                                 <rect key="frame" x="279.5" y="0.0" width="114.5" height="161.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="boardSquares:" destination="q2o-te-CwK" eventType="touchUpInside" id="r4Y-kT-yW4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -45,15 +51,21 @@
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="834-HI-gwF">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="161"/>
-                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="boardSquares:" destination="q2o-te-CwK" eventType="touchUpInside" id="dmF-mW-lZD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyS-no-ZbB">
                                                 <rect key="frame" x="139.5" y="0.0" width="115" height="161"/>
-                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="boardSquares:" destination="q2o-te-CwK" eventType="touchUpInside" id="Us2-jn-bum"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUa-vk-TYm">
                                                 <rect key="frame" x="279.5" y="0.0" width="114.5" height="161"/>
-                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="boardSquares:" destination="q2o-te-CwK" eventType="touchUpInside" id="aCp-nG-jf4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -62,17 +74,20 @@
                                         <subviews>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIy-6r-bwW">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="161.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="boardSquares:" destination="q2o-te-CwK" eventType="touchUpInside" id="YEL-4g-wYl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fB9-ga-hHg">
                                                 <rect key="frame" x="139.5" y="0.0" width="115" height="161.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="boardSquares:" destination="q2o-te-CwK" eventType="touchUpInside" id="cKh-5D-pBJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eg0-wf-0HI">
                                                 <rect key="frame" x="279.5" y="0.0" width="114.5" height="161.5"/>
-                                                <state key="normal" title="Button"/>
                                                 <connections>
-                                                    <action selector="btnPressed:" destination="q2o-te-CwK" eventType="touchUpInside" id="129-dL-HD5"/>
+                                                    <action selector="boardSquares:" destination="q2o-te-CwK" eventType="touchUpInside" id="Clq-nO-3LG"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -92,6 +107,9 @@
                                     <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="playAgain:" destination="q2o-te-CwK" eventType="touchUpInside" id="eLW-w4-VId"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4VE-66-j3t"/>
@@ -117,6 +135,7 @@
                     <connections>
                         <outlet property="One1" destination="Z80-Qx-Enp" id="fde-iv-FuE"/>
                         <outlet property="One2" destination="25b-iv-cRG" id="Tu2-QG-PN0"/>
+                        <outlet property="One3" destination="BQy-eF-Qif" id="wPe-1n-z3h"/>
                         <outlet property="Second1" destination="834-HI-gwF" id="QUK-mg-6W3"/>
                         <outlet property="Second2" destination="WyS-no-ZbB" id="OyI-Xb-Bqk"/>
                         <outlet property="Second3" destination="XUa-vk-TYm" id="gYS-3r-9yF"/>
